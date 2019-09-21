@@ -9,23 +9,44 @@
       margin: 0;
       padding: 0;
   }
+
+  header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 58px;
+  }
   
-  aside {
+  aside, .nav {
     float: right;
+  }
+
+  hr {
+    width: 50%;
+    color: black;
+    margin-left: 0;
+  }
+
+  aside {
+    margin-left: 50px;
+  }
+
+  nav {
+    font-size: 40px;
   }
   
   main {
     float: left;
     padding: 10px;
-    border-top: 5px solid rgb(0, 0, 0);
   }
   
     .aboutMe {
     background-color: rgb(118, 170, 216);
-    width: 700px;
+    width: 1000px;
     height: 400px;
     padding: 10px;
     border: 1px solid rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 
   }
 
@@ -36,9 +57,11 @@
     border-bottom: 8px solid black;
   }
 
-  .center {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    padding: 10px;
+  .profileImage {
+    float: right;
+  }
+
+  .verticalLine {
+    border-left: 4px solid green;
+    height: 7px;
   }
