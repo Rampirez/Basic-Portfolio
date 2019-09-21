@@ -1,0 +1,44 @@
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  html, body {
+      background-color: wheat;
+      margin: 0;
+      padding: 0;
+  }
+  
+  aside {
+    float: right;
+  }
+  
+  main {
+    float: left;
+    padding: 10px;
+    border-top: 5px solid rgb(0, 0, 0);
+  }
+  
+    .aboutMe {
+    background-color: rgb(118, 170, 216);
+    width: 700px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+
+  }
+
+  .topOfPage {
+    width: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-bottom: 8px solid black;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px;
+  }
