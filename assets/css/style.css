@@ -4,67 +4,30 @@
     clear: both;
   }
 
-  html, body {
-      background-color: wheat;
-      margin: 0;
-      padding: 0;
-  }
+body {
+  background: wheat;
+  margin: 0;
+  padding:0;
+}
 
-  header {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-  
-  aside, .nav {
-    float: right;
-  }
+.pagetop {
+  background-color: white;
+  padding: 30px;
+  height: 30px;
+  width: 100%;
+  z-index: 20;
+  border-bottom: 2px solid black;
+}
 
-  hr {
-    width: 50%;
-    color: black;
-    margin-left: 0;
-  }
+.format{
+  margin: 0% 20%;
+}
 
-  aside {
-    margin-left: 50px;
-  }
+#title {
+  float: left;
+  width: left;
+}
 
-  nav {
-    font-size: 20px;
-  }
-  
-  main {
-    float: left;
-    padding: 10px;
-  }
-  
-    .aboutMe {
-    background-color: rgb(118, 170, 216);
-    width: 1000px;
-    height: 400px;
-    padding: 10px;
-    border: 1px solid rgb(0, 0, 0);
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-
-  }
-
-  .topOfPage {
-    width: 0 auto;
-    padding: 30px;
-    background-color: white;
-    border-bottom: 8px solid black;
-  }
-
-  .profileImage {
-    float: right;
-  }
-
-
-  .verticalLine {
-    border-left: 4px solid green;
-    height: 7px;
-  }
+#navigation {
+  float: right;
+}
