@@ -12,7 +12,9 @@
 
   header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 58px;
+    font-size: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
   }
   
   aside, .nav {
@@ -30,7 +32,7 @@
   }
 
   nav {
-    font-size: 40px;
+    font-size: 20px;
   }
   
   main {
@@ -60,6 +62,7 @@
   .profileImage {
     float: right;
   }
+
 
   .verticalLine {
     border-left: 4px solid green;
