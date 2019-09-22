@@ -14,9 +14,11 @@ body {
   background-color: white;
   padding: 30px;
   height: 30px;
-  width: 100%;
+  width: 98%;
   z-index: 20;
   border-bottom: 2px solid black;
+  clear: both;
+  overflow: auto;
 }
 
 .format{
@@ -25,9 +27,18 @@ body {
 
 #title {
   float: left;
-  width: left;
+  width: 25%;
+  background-color: teal; 
+  padding: 38px;
+  text-align: center;
+  margin:-3%;
+  font-size: 32px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #navigation {
   float: right;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(73, 73, 73);
 }
