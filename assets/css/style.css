@@ -12,10 +12,34 @@ body {
   padding:0;
 }
 
+form {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  margin: 15px;
+}
+
 footer {
   bottom: 0;
   position: absolute;
   width: 100%;
+}
+
+input[type=submit] {
+  border: 0;
+  width: 200px;
+  height: 50px;
+  font-family: Tahoma;
+  background-color: rgb(114, 197, 197);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+.messageformat {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  margin: 15px;
+
 }
 
 .pagetop {
