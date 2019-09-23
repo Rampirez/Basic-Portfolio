@@ -20,7 +20,7 @@ form {
 
 footer {
   bottom: 0;
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 
@@ -128,4 +128,13 @@ input[type=submit] {
 
 #topiccolor {
   color: rgb(114, 197, 197);
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
 }
