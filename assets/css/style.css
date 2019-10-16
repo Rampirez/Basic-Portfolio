@@ -2,7 +2,6 @@
     content: " ";
     display: block;
     clear: both;
-    overflow: auto;
   }
 
 body {
@@ -23,6 +22,11 @@ footer {
   position: relative;
   width: 100%;
 }
+
+#portLink {
+  color: white;
+}
+
 
 input[type=submit] {
   border: 0;
@@ -50,7 +54,6 @@ input[type=submit] {
   z-index: 20;
   border-bottom: 10px solid rgb(114, 197, 197);
   clear: both;
-  overflow: auto;
 }
 
 .pagebottom {
@@ -96,7 +99,7 @@ input[type=submit] {
   width: 25%;
   color: white;
   background-color: rgb(114, 197, 197); 
-  padding: 38px;
+  padding: 30px;
   text-align: center;
   margin:-3%;
   font-size: 32px;
